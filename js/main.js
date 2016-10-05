@@ -14,3 +14,49 @@ $(function() {
     }
   });
 });
+
+<!-- Success Message -->
+
+/*When clicking on Full hide fail/success boxes */
+$('#name').focus(function() {
+    $('#success').html('');
+});
+
+$(function() {
+
+    $("input,textarea").jqBootstrapValidation({
+        preventSubmit: true,
+        submitError: function($form, event, errors) {
+            // additional error messages or events
+        },
+        submitSuccess: function($form, e) {
+    	    e.preventDefault();
+
+    	    var submitButton = $('input[type=submit]', $form);
+    	    $.ajax({
+    	      type: 'POST',
+    	      url: $form.prop('action'),
+    	      accept: {
+    	        javascript: 'application/javascript'
+    	      },
+    	      data: $form.serialize(),
+    	      beforeSend: function() {
+				submitButton.prop('value', '{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}');
+				submitButton.prop('disabled', 'disabled');
+    	      }
+    	    }).done(function(data) {
+				submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
+    			submitButton.prop('disabled', false);
+    	    });
+        },
+
+        filter: function() {
+            return $(this).is(":visible");
+        },
+    });
+
+    $("a[data-toggle=\"tab\"]").click(function(e) {
+        e.preventDefault();
+        $(this).tab("show");
+    });
+});
