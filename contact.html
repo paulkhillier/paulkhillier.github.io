@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Just-Ed Business Site">
+  <meta name="author" content="Paul Hillier">
+
+  <title>Just-Ed: Contact Us</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Custom Fonts and Icons -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+          <div class="container">
+              <!-- Logo and Navigation Toggle -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Just-Ed</a>
+                  <p class="navbar-text">Experienced, Qualified, and Committed</p>
+              </div>
+              <!-- Navigation Items -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li>
+                          <a href="index.html#services">Services</a>
+                      </li>
+                      <li>
+                          <a href="index.html#benefits">Benefits</a>
+                      </li>
+                      <li>
+                          <a href="index.html#about">About Us</a>
+                      </li>
+                      <li>
+                          <a href="resources.html">Resources</a>
+                      </li>
+                      <li class="Contact Us">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="contact.html">Contact Us</a>
+                              </li>
+                              <li role="separator" class="divider"></li>
+                              <li>
+                                  <a href="https://www.facebook.com/JustEd101" target="_blank">Facebook</a>
+                              </li>
+                              <li>
+                                  <a href="tbd" target="_blank">Twitter</a>
+                              </li>
+                              <li>
+                                  <a href="tbd" target="_blank">Whatsapp</a>
+                              </li>
+                              <li>
+                                  <a href="tbd" target="_blank">Skype</a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact Us
+                    <small>Subheading</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+          <!-- Contact Form -->
+          <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <div class="col-md-8">
+                <h3>How Can We Help You?</h3>
+                <form action="https://formspree.io/paulkhillier@gmail.com"
+      method="POST" class="form-block" name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>First and Last Name</label>
+                            <input name="name" type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number</label>
+                            <input name="phone" type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address</label>
+                            <input name="email" type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>How can we help you?</label>
+                            <textarea name="message" rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>Availability</label>
+                        <div class="controls">
+                          <label class="checkbox-inline">
+                            <input type="checkbox" name="Monday" id="inlineCheckbox1" value="Monday"> Monday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Tuesday" id="inlineCheckbox2" value="Tuesday"> Tuesday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Wednesday" id="inlineCheckbox3" value="Wednesday"> Wednesday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Thursday" id="inlineCheckbox4" value="Thursday"> Thursday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Friday" id="inlineCheckbox5" value="Friday"> Friday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Saturday" id="inlineCheckbox6" value="Saturday"> Saturday
+                            </label>
+                            <label class="checkbox-inline">
+                            <input type="checkbox" name="Sunday" id="inlineCheckbox7" value="Sunday"> Sunday
+                            </label>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button name="submit" type="submit" class="btn btn-default">Send Message</button>
+                </form>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.80842985515!2d-79.51814080474942!3d43.71840386084229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C+ON!5e0!3m2!1sen!2sca!4v1475175773193" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                <p><i class="glyphicon glyphicon-home"></i>
+                    <abbr title="Address">A</abbr>:
+                    4-38 Bishop Tutu Blvd Toronto, ON M5V 2Z7<br>
+                </p>
+                <p><i class="glyphicon glyphicon-earphone"></i>
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="glyphicon glyphicon-envelope"></i>
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                </p>
+                <p><i class="glyphicon glyphicon-time"></i>
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 5:00 PM to 10:00 PM</p>
+            </div>
+          </div>
+        <!-- /.row -->
+
+        <!-- Footer -->
+        <footer>
+
+            <hr>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>&copy; Just-Ed 2016</p>
+                </div>
+                <div class="col-lg-4">
+                  <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                      <a href="https://www.facebook.com/JustEd101" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.twitter.com/JustEd101" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.whatsapp.com/JustEd101" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.skype.com/JustEd101" target="_blank"><i class="fa fa-skype fa-2x"></i></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>
