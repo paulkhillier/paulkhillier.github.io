@@ -41,17 +41,6 @@ header.carousel .fill {
     background-size: cover;
 }
 
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    text-align:center;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-}
 
 /* 404 Page Styles */
 
