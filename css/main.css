@@ -111,6 +111,21 @@ footer .col-lg-4 {
       display: none;
     }
 
+    .col-md-4.first label {
+      display: block;
+      width: 99px;
+      float: left;
+    }
+    .col-md-4.second label {
+      display: block;
+      width: 99px;
+      float: left;
+    }
+
+/* label {
+  text-align: center;
+}
+*/
 @-ms-viewport{
       width: device-width;
     }
