@@ -22,6 +22,7 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 
+/*
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
@@ -60,3 +61,4 @@ $(function() {
         $(this).tab("show");
     });
 });
+*/
