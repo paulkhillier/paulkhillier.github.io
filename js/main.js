@@ -40,13 +40,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/paulkhillier@gmail.com",
-                type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                      method: 'POST',
+                      url: '//formspree.io/paulkhillier@gmail.com',
+                      data: $('#contactForm').serialize(),
+                      datatype: 'json'
                 },
                 cache: false,
                 success: function() {
