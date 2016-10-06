@@ -104,9 +104,9 @@ footer .col-lg-4 {
 
 @media(max-width:767px) {
 
-  header.carousel .carousel {
+  /*header.carousel .carousel {
       height: 70%;
-  }
+  }*/
 
   footer .col-lg-8 {
     text-align: center;
