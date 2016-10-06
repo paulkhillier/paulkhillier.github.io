@@ -44,7 +44,7 @@ $(function() {
                       method: 'POST',
                       data: $('#contactForm').serialize(),
                       datatype: 'json'
-                },
+                )},
                 cache: false,
                 success: function() {
                     // Success message
