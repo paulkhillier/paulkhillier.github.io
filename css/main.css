@@ -111,6 +111,8 @@ footer .col-lg-4 {
       display: none;
     }
 
-
+@-ms-viewport{
+      width: device-width;
+    }
 
 }
