@@ -17,12 +17,12 @@ $(function() {
 
 <!-- Success Message -->
 
-/*When clicking on Full hide fail/success boxes */
+/*When clicking on Full hide fail/success boxes
 $('#name').focus(function() {
     $('#success').html('');
 });
 
-/*
+
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
