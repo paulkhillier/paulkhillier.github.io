@@ -122,14 +122,11 @@ footer .col-lg-4 {
       float: left;
     }
 
-.checkbox-inline {
-  width: 100%;
-  margin-left: 0px !important;
-}
-/* label {
-  text-align: center;
-}
-*/
+  .checkbox-inline {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
 @-ms-viewport{
       width: device-width;
     }
