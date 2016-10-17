@@ -42,10 +42,10 @@ $("#contactForm").validate({
       url: "//formspree.io/paulkhillier@gmail.com",
       method: "POST",
       data: {
-        name: $(form).find("input[name='Name']").val(),
-        phone: $(form).find("input[name='Phone']").val(),
-        _replyto: $(form).find("input[name='_replyto']").val(),
-        message: $(form).find("textarea[name='Message']").val()
+        Name: $(form).find("input[name='Name']").val(),
+        Phone: $(form).find("input[name='Phone']").val(),
+        Email: $(form).find("input[name='_replyto']").val(),
+        Message: $(form).find("textarea[name='Message']").val()
       },
       dataType: "json",
       success: function() {
