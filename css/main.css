@@ -151,11 +151,6 @@ footer .col-lg-4 {
 /* Responsive Styles */
 
 @media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-
     .page-header {
         padding-left: 0;
         text-align: center;
@@ -164,22 +159,25 @@ footer .col-lg-4 {
     .aboutus {
       height: auto;
     }
+
+    .navbar-text {
+      display: none;
+    }
+
+    footer .col-lg-8 {
+      text-align: center;
+    }
+    footer .col-lg-4 {
+      text-align: center;
+    }
 }
+
 
 @media(max-width:767px) {
 
-  footer .col-lg-8 {
-    text-align: center;
-  }
-  footer .col-lg-4 {
-    text-align: center;
-  }
+
   .img-portfolio {
       margin-bottom: 15px;
-  }
-
-  .navbar-text {
-    display: none;
   }
 
   .col-md-4.first label {
