@@ -16,6 +16,7 @@ $(function() {
 
 });
 
+<!-- Floating Back to Top Arrow -->
 var amountScrolled = 300;
 
 $(window).scroll(function() {
@@ -33,6 +34,30 @@ $('a.back-to-top').click(function() {
 	return false;
 });
 
+<!-- Contact Us Form Vailidation -->
+
+$("#contactForm").validate({
+  submitHandler: function(form) {
+    $.ajax({
+      url: "//formspree.io/paulkhillier@gmail.com",
+      method: "POST",
+      data: {
+        name: $(form).find("input[name='Name']").val(),
+        phone: $(form).find("input[name='Phone']").val(),
+        pemail: $(form).find("input[name='Email']").val(),
+        message: $(form).find("textarea[name='Message']").val()
+      },
+      dataType: "json",
+      success: function() {
+        $("#submit-success").fadeIn();
+        $("#contactForm").fadeOut();
+      },
+      error: function() {
+        $("#submit-errors").fadeIn();
+      }
+    });
+  }
+});
 /*
 <!-- Animsition Page Transitions -->
 $(document).ready(function() {
