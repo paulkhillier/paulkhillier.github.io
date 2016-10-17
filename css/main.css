@@ -34,17 +34,12 @@ h2 {
   margin-bottom: 5px;
 }
 
-.fill {
-  background-color: black;
-  opacity: 0.9;
-}
-
 .navbar-brand {
   display: flex;
   align-items: center;
 }
 .navbar-brand>img {
-  padding: 7px 14px;
+  padding-right: 10px;
 }
 
 .aboutus {
@@ -64,6 +59,7 @@ h2 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 /* Image Carousel */
 
 header.carousel {
@@ -81,8 +77,31 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-color: black;
+    opacity: 0.9;
 }
 
+header.carousel a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Back to Top Arrow */
+
+a.back-to-top {
+	display: none;
+	width: 48px;
+	height: 48px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #18BC9C url("../img/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
 
 /* 404 Page Styles */
 
@@ -139,34 +158,30 @@ footer .col-lg-4 {
 
 @media(max-width:767px) {
 
-  /*header.carousel .carousel {
-      height: 70%;
-  }*/
-
   footer .col-lg-8 {
     text-align: center;
   }
   footer .col-lg-4 {
     text-align: center;
   }
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
+  .img-portfolio {
+      margin-bottom: 15px;
+  }
 
-    .navbar-text {
-      display: none;
-    }
+  .navbar-text {
+    display: none;
+  }
 
-    .col-md-4.first label {
-      display: block;
-      width: 99px;
-      float: left;
-    }
-    .col-md-4.second label {
-      display: block;
-      width: 99px;
-      float: left;
-    }
+  .col-md-4.first label {
+    display: block;
+    width: 99px;
+    float: left;
+  }
+  .col-md-4.second label {
+    display: block;
+    width: 99px;
+    float: left;
+  }
 
   .checkbox-inline {
     width: 100%;
@@ -174,7 +189,17 @@ footer .col-lg-4 {
 
   .dropdown-menu .divider {
       background-color: #e5e5e5 !important;
-    }
+  }
+
+  header.carousel {
+      height: 75%;
+  }
+
+  .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 @-ms-viewport{
       width: device-width;
