@@ -114,26 +114,26 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Name <small>*</small></label>
-                            <input name="Name" type="text" class="form-control" placeholder="e.g. John Lee" id="name" required data-validation-required-message="Please enter your name.">
+                            <input name="Name" type="text" class="form-control" placeholder="e.g. John Lee" id="name" data-validation-required-message="Please enter your name." required>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Phone Number <small>*</small></label>
-                            <input name="Phone" type="tel" class="form-control" placeholder="e.g. 647-123-4567" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input name="Phone" type="tel" class="form-control" placeholder="e.g. 647-123-4567" id="phone" data-validation-required-message="Please enter your phone number." required>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email Address <small>*</small></label>
-                            <input name="_replyto" type="email" class="form-control" placeholder="e.g. mailbox@domain.com" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input name="_replyto" type="email" class="form-control" placeholder="e.g. mailbox@domain.com" id="email" data-validation-required-message="Please enter your email address." required>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>How can we help you? <small>*</small></label>
-                            <textarea name="Message" rows="7" cols="100" class="form-control" placeholder="Let us know your learning objectives, preferred contact method, availability, etc." id="message" required data-validation-required-message="Please enter your message" maxlength="1200" style="resize:none"></textarea>
+                            <textarea name="Message" rows="7" cols="100" class="form-control" placeholder="Let us know your learning objectives, preferred contact method, availability, etc." id="message"  data-validation-required-message="Please enter your message" maxlength="1200" style="resize:none" required></textarea>
                         </div>
                     </div>
                     <div class="control-group form-group">
@@ -192,8 +192,8 @@
 
                     <!-- Hidden message to show if user encounters errors. -->
                     <div id="submit-errors" class="collapse">
-                      It looks like there was an error submitting the form.
-                      Please contact us directly at <a href="mailto:info@justed.ca">info@justed.ca</a>.
+                      <p class="lead">It looks like there was an error submitting the form.
+                      Please contact us directly at <a href="mailto:info@justed.ca">info@justed.ca</a>.</p>
                     </div>
                 </form>
             </div>

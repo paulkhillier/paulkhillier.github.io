@@ -35,7 +35,8 @@ $('a.back-to-top').click(function() {
 });
 
 <!-- Contact Us Form Vailidation -->
-
+$("#contactForm").validate();
+/*
 $("#contactForm").validate({
   submitHandler: function(form) {
     $.ajax({
@@ -63,6 +64,7 @@ $("#contactForm").validate({
     });
   }
 });
+*/
 
 /*When clicking on Full hide fail/success boxes
 $('#name').focus(function() {
