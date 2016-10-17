@@ -81,7 +81,7 @@ header.carousel .fill {
     opacity: 0.9;
 }
 
-header.carousel a {
+a.slide-link {
   text-decoration: none;
   color: white;
 }
