@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .img-hover:hover {
@@ -45,6 +45,24 @@ h2 {
 }
 .navbar-brand>img {
   padding: 7px 14px;
+}
+
+.aboutus {
+  height: 320px;
+}
+
+.about-name {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.checkbox-inline {
+  margin-left: 0px !important;
+}
+
+.testimonials {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /* Image Carousel */
 
@@ -113,6 +131,10 @@ footer .col-lg-4 {
         padding-left: 0;
         text-align: center;
     }
+
+    .aboutus {
+      height: auto;
+    }
 }
 
 @media(max-width:767px) {
@@ -148,7 +170,6 @@ footer .col-lg-4 {
 
   .checkbox-inline {
     width: 100%;
-    margin-left: 0px !important;
   }
 
 @-ms-viewport{

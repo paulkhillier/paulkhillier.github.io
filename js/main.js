@@ -13,6 +13,8 @@ $(function() {
       }
     }
   });
+
+
 });
 
 /*
@@ -45,7 +47,7 @@ $(document).ready(function() {
 /*
   Jquery Validation using jqBootstrapValidation
    example is taken from jqBootstrapValidation docs
-  */
+
 $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -108,7 +110,7 @@ $(function() {
         $(this).tab("show");
     });
 });
-
+*/
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
