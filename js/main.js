@@ -45,7 +45,12 @@ $("#contactForm").validate({
         Name: $(form).find("input[name='Name']").val(),
         Phone: $(form).find("input[name='Phone']").val(),
         _replyto: $(form).find("input[name='_replyto']").val(),
-        Message: $(form).find("textarea[name='Message']").val()
+        Message: $(form).find("textarea[name='Message']").val(),
+        InPerson Tutoring: $(form).find("input[name='InPerson Tutoring']").val(),
+        Online Tutoring: $(form).find("input[name='Online Tutoring']").val(),
+        Essay and Assignment Editing: $(form).find("input[name='Essay and Assignment Editing']").val(),
+        Note Transcription and Review: $(form).find("input[name='Note Transcription and Review']").val(),
+        Other services: $(form).find("input[name='Other services']").val(),
       },
       dataType: "json",
       success: function() {
