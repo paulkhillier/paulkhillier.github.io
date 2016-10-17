@@ -172,6 +172,10 @@ footer .col-lg-4 {
     width: 100%;
   }
 
+  .dropdown-menu .divider {
+      background-color: #e5e5e5 !important;
+    }
+
 @-ms-viewport{
       width: device-width;
     }
