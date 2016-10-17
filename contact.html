@@ -121,7 +121,7 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Phone Number <small>*</small></label>
-                            <input name="Phone" type="tel" class="form-control" placeholder="e.g. 647-123-4567" id="phone" data-validation-required-message="Please enter your phone number." required>
+                            <input name="Phone Number" type="tel" class="form-control" placeholder="e.g. 647-123-4567" id="phone" data-validation-required-message="Please enter your phone number." required>
                         </div>
                     </div>
                     <div class="control-group form-group">
@@ -133,14 +133,14 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>How can we help you? <small>*</small></label>
-                            <textarea name="Message" rows="7" cols="100" class="form-control" placeholder="Let us know your learning objectives, preferred contact method, availability, etc." id="message"  data-validation-required-message="Please enter your message" maxlength="1200" style="resize:none" required></textarea>
+                            <textarea name="Message" rows="7" cols="100" class="form-control" placeholder="Let us know your learning objectives, preferred contact method, availability, etc." id="message"  data-validation-required-message="Please enter your message." maxlength="1200" style="resize:none" required></textarea>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <label>I am interested in...</label>
                         <div class="controls">
                           <label class="checkbox-inline">
-                            <input type="checkbox" name="InPerson Tutoring" id="inlineCheckbox8" value="Yes"> In-person tutoring&nbsp;&nbsp;
+                            <input type="checkbox" name="In-Person Tutoring" id="inlineCheckbox8" value="Yes"> In-person tutoring&nbsp;&nbsp;
                             </label>
                             <label class="checkbox-inline">
                             <input type="checkbox" name="Online Tutoring" id="inlineCheckbox9" value="Yes"> Online tutoring&nbsp;&nbsp;
@@ -185,6 +185,7 @@
                     <div id="success"></div>
                     <!-- For success/fail messages -->
                     <button type="submit" class="btn btn-success">Send Message</button>
+                    <input type="hidden" name="_cc" value="matthewskristy@gmail.com,samahazharuddin@gmail.com" />
                     <!-- Hidden message to show if contact is successful. -->
                     <div id="submit-success" class="collapse">
                       <p class="lead">Message received! We'll be in touch.</p>
