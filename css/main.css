@@ -103,6 +103,9 @@ a.back-to-top {
 	border-radius: 30px;
 }
 
+label {
+  margin-bottom: 4px;
+}
 /* 404 Page Styles */
 
 .error-404 {
@@ -131,7 +134,7 @@ a.back-to-top {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 0px;
 }
 
 footer .col-lg-4 {
