@@ -150,6 +150,11 @@ footer .col-lg-4 {
 
 /* Responsive Styles */
 
+@media(max-width:1366px) {
+  header.carousel {
+      height: 53%;
+  }
+
 @media(max-width:991px) {
     .page-header {
         padding-left: 0;
@@ -174,7 +179,6 @@ footer .col-lg-4 {
 
 
 @media(max-width:767px) {
-
 
   .img-portfolio {
       margin-bottom: 15px;
