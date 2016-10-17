@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .img-hover:hover {
@@ -22,10 +22,30 @@ h2 {
         margin-bottom: 30px;
 }
 
+.img-responsive {
+  border-radius: 5px;
+}
 .btn-block {
   margin-bottom: 10px;
 }
 
+.btn-default {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fill {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
 /* Image Carousel */
 
 header.carousel {
