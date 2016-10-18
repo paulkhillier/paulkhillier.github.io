@@ -140,9 +140,6 @@ label {
 
 /* Footer Styles */
 
-footer {
-    margin: 0px;
-}
 
 footer .col-lg-4 {
     text-align: right;
@@ -199,10 +196,6 @@ footer .col-lg-4 {
 }
 @media(max-width:599px) {
 
-  .navbar-text {
-    display: none;
-  }
-
   p.lead {
       font-size: 1.1em;
   }
@@ -238,5 +231,10 @@ footer .col-lg-4 {
 @-ms-viewport{
       width: device-width;
     }
+    @media(max-width:480px) {
+
+      .navbar-text {
+        display: none;
+      }
 
 }
