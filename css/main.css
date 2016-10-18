@@ -8,6 +8,7 @@ body {
 
 body {
     padding-top: 50px;
+    overflow-y: scroll;
 }
 
 h2 {
