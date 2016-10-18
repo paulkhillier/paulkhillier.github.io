@@ -195,9 +195,17 @@ footer .col-lg-4 {
   header.carousel {
       height: 42%;
   }
+  .navbar-text {
+    display: flex;
+  }
+
 }
 @media(max-width:599px) {
 
+  .navbar-text {
+    display: none;
+  }
+  
   p.lead {
       font-size: 1.1em;
   }
@@ -211,6 +219,7 @@ footer .col-lg-4 {
     width: 99px;
     float: left;
   }
+
   .col-md-4.second label {
     display: block;
     width: 99px;
