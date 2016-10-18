@@ -109,6 +109,7 @@ a.back-to-top {
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
+  box-shadow: 0 0 3px #ccc;
 }
 
 label {
