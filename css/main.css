@@ -166,12 +166,12 @@ footer .col-lg-4 {
 
 /* Responsive Styles */
 
-@media(min-width:1367px) {
+@media(max-width:1920px) {
 
 blockquote {
   margin-top: -8px;
   }
-  
+
 }
 
 @media(max-width:1366px) {
