@@ -207,7 +207,12 @@ footer .col-lg-4 {
 
 @media(max-width:767px) {
   .navbar-text {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+  }
+  p.lead {
+    font-size: 1.2em
   }
 
 }
