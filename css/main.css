@@ -255,6 +255,13 @@ footer .col-lg-4 {
   .navbar-text {
     display: none;
   }
+	
+@media(max-width:320px) {
+
+  header.carousel {
+      height: 80%;
+  }
+
 
 }
 
