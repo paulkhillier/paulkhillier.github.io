@@ -1,4 +1,3 @@
-
 /* Global Styles */
 
 html,
@@ -122,6 +121,7 @@ a.back-to-top {
 label {
   margin-bottom: 4px;
 }
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -173,36 +173,36 @@ footer .col-lg-4 {
   header.carousel {
       height: 42%;
   }
-    .page-header {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    .aboutus {
-      height: auto;
-    }
-
-    .navbar-text {
-      display: none;
-    }
-
-    footer .col-lg-8 {
+  .page-header {
+      padding-left: 0;
       text-align: center;
-    }
+  }
 
-    footer .col-lg-4 {
-      text-align: center;
-    }
+  .aboutus {
+    height: auto;
+  }
 
-    .img-responsive {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .navbar-text {
+    display: none;
+  }
 
-    blockquote {
-      margin-bottom: 0px;
-    }
+  footer .col-lg-8 {
+    text-align: center;
+  }
+
+  footer .col-lg-4 {
+    text-align: center;
+  }
+
+  .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  blockquote {
+    margin-bottom: 0px;
+  }
 }
 
 @media(max-width:767px) {
@@ -245,13 +245,14 @@ footer .col-lg-4 {
       height: 70%;
   }
 
+@media(max-width:480px) {
+
+  .navbar-text {
+    display: none;
+  }
+
 @-ms-viewport{
       width: device-width;
     }
-    @media(max-width:480px) {
-
-      .navbar-text {
-        display: none;
-      }
 
 }
