@@ -14,6 +14,9 @@ h2 {
     padding-top: 30px;
 }
 
+label {
+  margin-bottom: 3px;
+}
 blockquote {
   font-size: 1.1em;
   margin-top: -5px;
@@ -123,10 +126,6 @@ a.back-to-top {
 	-moz-border-radius: 30px;
 	border-radius: 30px;
   box-shadow: 0 0 3px #ccc;
-}
-
-label {
-  margin-bottom: 4px;
 }
 
 /* 404 Page Styles */
