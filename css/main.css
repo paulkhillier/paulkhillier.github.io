@@ -17,7 +17,7 @@ h2 {
 blockquote {
   font-size: 1.1em;
   margin-top: -5px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 a.navbar-brand {
@@ -257,7 +257,7 @@ footer .col-lg-4 {
   .navbar-text {
     display: none;
   }
-	
+
 @media(max-width:320px) {
 
   header.carousel {
