@@ -23,9 +23,6 @@ blockquote {
   margin-bottom: 30px;
 }
 
-blockquote p {
-  margin: 0 0 8.5px;
-}
 a.navbar-brand {
   color: white !important;
   font-size: 23px;
@@ -168,6 +165,14 @@ footer .col-lg-4 {
 }
 
 /* Responsive Styles */
+
+@media(min-width:1367px) {
+
+blockquote {
+  margin-top: -8px;
+  }
+  
+}
 
 @media(max-width:1366px) {
   header.carousel {
