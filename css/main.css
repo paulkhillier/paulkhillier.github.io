@@ -43,9 +43,14 @@ h2 {
 }
 
 .navbar-brand {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
 }
+
 .navbar-brand>img {
   padding-right: 10px;
 }

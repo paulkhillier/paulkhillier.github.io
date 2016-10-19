@@ -17,7 +17,7 @@ $(function() {
 });
 
 <!-- Floating Back to Top Arrow -->
-var amountScrolled = 300;
+var amountScrolled = 550;
 
 $(window).scroll(function() {
 	if ( $(window).scrollTop() > amountScrolled ) {
@@ -36,65 +36,3 @@ $('a.back-to-top').click(function() {
 
 <!-- Contact Us Form Vailidation -->
 $("#contactForm").validate();
-/*
-$("#contactForm").validate({
-  submitHandler: function(form) {
-    $.ajax({
-      url: "//formspree.io/paulkhillier@gmail.com",
-      method: "POST",
-      data: {
-        Name: $(form).find("input[name='Name']").val(),
-        Phone: $(form).find("input[name='Phone']").val(),
-        _replyto: $(form).find("input[name='_replyto']").val(),
-        Message: $(form).find("textarea[name='Message']").val(),
-        InPersonTutoring: $(form).find("input[name='InPerson Tutoring']").val(),
-        OnlineTutoring: $(form).find("input[name='Online Tutoring']").val(),
-        EssayAssignmentEditing: $(form).find("input[name='Essay and Assignment Editing']").val(),
-        NoteTranscriptionReview: $(form).find("input[name='Note Transcription and Review']").val(),
-        OtherServices: $(form).find("input[name='Other Services']").val(),
-      },
-      dataType: "json",
-      success: function() {
-        $("#submit-success").fadeIn();
-        $("#contactForm").fadeOut();
-      },
-      error: function() {
-        $("#submit-errors").fadeIn();
-      }
-    });
-  }
-});
-*/
-
-/*When clicking on Full hide fail/success boxes
-$('#name').focus(function() {
-    $('#success').html('');
-});
-*/
-
-/*
-<!-- Animsition Page Transitions -->
-$(document).ready(function() {
-  $(".animsition").animsition({
-    inClass: 'fade-in',
-    outClass: 'fade-out',
-    inDuration: 1500,
-    outDuration: 800,
-    linkElement: '.animsition-link',
-    // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-    loading: true,
-    loadingParentElement: 'body', //animsition wrapper element
-    loadingClass: 'animsition-loading',
-    unSupportCss: [
-      'animation-duration',
-      '-webkit-animation-duration',
-      '-o-animation-duration'
-    ],
-    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body'
-  });
-});
-*/
