@@ -21,7 +21,7 @@ blockquote {
 }
 
 a.navbar-brand {
-  color: white;
+  color: white !important;
 }
 
 .img-hover:hover {
