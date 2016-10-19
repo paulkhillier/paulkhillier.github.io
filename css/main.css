@@ -23,6 +23,9 @@ blockquote {
   margin-bottom: 30px;
 }
 
+blockquote p {
+  margin: 0 0 8.5px;
+}
 a.navbar-brand {
   color: white !important;
   font-size: 23px;
