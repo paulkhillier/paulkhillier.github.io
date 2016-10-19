@@ -20,6 +20,10 @@ blockquote {
   margin-bottom: 35px;
 }
 
+a:active.home-brand {
+  text-decoration: none;
+}
+
 .img-hover:hover {
     opacity: 0.8;
 }
