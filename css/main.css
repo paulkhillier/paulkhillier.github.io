@@ -212,7 +212,7 @@ footer .col-lg-4 {
     display: flex;
   }
   p.lead {
-    font-size: 1.2em
+    font-size: 1em;
   }
 
 }
