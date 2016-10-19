@@ -262,11 +262,12 @@ footer .col-lg-4 {
 
 @media only screen
   and (max-device-width: 960px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
   header.carousel {
       height: 100%;
+      width: 100%;
   }
 
 }
