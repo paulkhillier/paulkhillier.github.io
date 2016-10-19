@@ -19,12 +19,6 @@ blockquote {
   font-size: 1.1em;
 }
 
-/* .container {
-  margin-left: 141px;
-  margin-right: 141px;
-}
-*/
-
 .img-hover:hover {
     opacity: 0.8;
 }
