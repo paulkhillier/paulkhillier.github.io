@@ -20,7 +20,7 @@ blockquote {
   margin-bottom: 35px;
 }
 
-a:visited.navbar-brand {
+a.navbar-brand {
   color: white;
 }
 
