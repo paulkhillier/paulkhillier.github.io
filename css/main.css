@@ -269,8 +269,8 @@ footer .col-lg-4 {
 /* Phone landscape fix */
 
 @media only screen
-and (min-device-width: 375px)
-and (max-device-width: 732px)
+and (min-width: 320px)
+and (max-width: 732px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
 
