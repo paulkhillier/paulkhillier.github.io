@@ -269,8 +269,9 @@ footer .col-lg-4 {
 /* Phone landscape fix */
 
 @media only screen
+(min-width: 320px)
 and (max-width: 732px)
-and (orientation: landscape) {
+ {
 
   header.carousel {
       height: 100% !important;
