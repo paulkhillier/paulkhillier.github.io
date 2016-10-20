@@ -263,15 +263,15 @@ footer .col-lg-4 {
       height: 82%;
   }
 
-
 }
 
 /* Phone landscape fix */
 
 @media only screen
-(min-width: 320px)
-and (max-width: 732px)
- {
+and (min-device-width: 320px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
 
   header.carousel {
       height: 100% !important;
