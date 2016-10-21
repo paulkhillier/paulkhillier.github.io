@@ -347,21 +347,6 @@ footer .col-lg-4 {
 
 }
 
-/* Phone landscape fix */
-
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
-
-  header.carousel {
-      height: 100% !important;
-      width: 100% !important;
-  }
-
-}
-
 /*  MS Viewport */
 
 @-ms-viewport{
