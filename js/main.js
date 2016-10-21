@@ -17,7 +17,7 @@ $(function() {
 });
 
 <!-- Floating Back to Top Arrow -->
-var amountScrolled = 550;
+var amountScrolled = 650;
 
 $(window).scroll(function() {
 	if ( $(window).scrollTop() > amountScrolled ) {

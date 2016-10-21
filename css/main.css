@@ -84,6 +84,15 @@ a.navbar-brand {
   margin-bottom: 0px;
 }
 
+p.lead {
+  position: relative;
+}
+
+p.lead span {
+  position:absolute; top:-80px;
+}
+
+
 /* Image Carousel */
 
 header.carousel {
@@ -166,19 +175,29 @@ footer .col-lg-4 {
 
 /* Responsive Styles */
 
-@media(max-width:1366px) {
+@media(max-width:1440px) {
   header.carousel {
-      height: 54%;
+      height: 60%;
   }
+
+  p.lead {
+    font-size: 1.4em;
+  }
+
+}
+
+@media(max-width:1024px) {
+  header.carousel {
+      height: 50%;
+  }
+
   p.lead {
     font-size: 1.4em
   }
+
 }
 
 @media(max-width:991px) {
-  header.carousel {
-      height: 42%;
-  }
   .page-header {
       padding-left: 0;
       text-align: center;
@@ -204,23 +223,48 @@ footer .col-lg-4 {
     margin-top: 15px;
 
   }
+
+  .btn-lg {
+    padding:10px 17px;
+    font-size: 16px;
+    line-height: 1.1;
+    border-radius: 4px;
+  }
+
+  p.lead {
+    font-size: 1.3em;
+
+  }
+
 }
 
 @media(max-width:767px) {
+  header.carousel {
+      height: 100%;
+  }
+
   .navbar-text {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
   }
+
   p.lead {
     font-size: 1.2em;
+   }
+
+  .btn-lg {
+    padding:10px 17px;
+    font-size: 16px;
+    line-height: 1.1;
+    border-radius: 4px;
   }
 
 }
 @media(max-width:599px) {
 
   p.lead {
-      font-size: 1.1em;
+      font-size: 1em;
   }
 
   .img-portfolio {
@@ -247,20 +291,58 @@ footer .col-lg-4 {
       background-color: #e5e5e5 !important;
   }
 
-  header.carousel {
-      height: 70%;
-  }
-
 @media(max-width:480px) {
 
   .navbar-text {
     display: none;
   }
 
+  header.carousel {
+      height: 100%;
+  }
+
+  .btn-lg {
+    padding:10px 17px;
+    font-size: 16px;
+    line-height: 1.1;
+    border-radius: 4px;
+  }
+
+  p.lead {
+    font-size: 1.3em;
+  }
+
+  p.lead span {
+    position:absolute; top:-80px;
+  }
+
+@media(max-width:375px) {
+
+  p.lead {
+    font-size: 1.15em;
+  }
+
+  p.lead span {
+    position:absolute; top:-65px;
+  }
+}
+
 @media(max-width:320px) {
 
-  header.carousel {
-      height: 82%;
+  .btn-lg {
+    padding:7px 14px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 3px;
+  }
+
+  p.lead {
+    position:relative;
+    font-size: 1.1em;
+  }
+
+  p.lead span {
+    position:absolute; top:-75px;
   }
 
 }
