@@ -20,7 +20,7 @@ label {
 blockquote {
   font-size: 1.1em;
   margin-top: -5px;
-  margin-bottom: 30px;
+  margin-bottom: 43px;
 }
 
 a.navbar-brand {
@@ -82,6 +82,10 @@ a.navbar-brand {
 .testimonials {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.sendmessage {
+  margin-bottom: 10px;
 }
 
 p.lead {
@@ -167,6 +171,7 @@ a.back-to-top {
 footer {
     margin: 0px;
     width: 100%;
+    bottom: 0;
 }
 
 footer .col-lg-4 {
