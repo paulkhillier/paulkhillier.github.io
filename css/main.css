@@ -23,6 +23,12 @@ blockquote {
   margin-bottom: 43px;
 }
 
+blockquote.pricing {
+  font-size: 1.1em;
+  margin-top: -5px;
+  margin-bottom: 90px;
+}
+
 a.navbar-brand {
   color: white !important;
   font-size: 23px;
