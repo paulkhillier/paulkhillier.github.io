@@ -14,6 +14,8 @@ Focus on the end-to-end shopping context of:
 * Schedule delivery
 * Specify and process payment
 * Receive order confirmation
+  
+Improve the flow of these tasks with a unified mobile + desktop experience.  
 
 ## Participants
 Participants will largely be drawn from friends, family, colleagues, and cohort members. Use targeted email and/or Slack DM communication with instructions for the shopping task and a link to a pre-prepared survey. Once survey results are received, follow up via email or Slack and schedule a 1:1 interview to be conducted via Zoom/Meet. Consider providing $10 Longos gift card to 1:1 participants as incentive to complete the task. Participants will be more likely to pay and schedule delivery if incentive is provided.  
