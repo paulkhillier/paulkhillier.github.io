@@ -32,9 +32,9 @@ Participants must:
 * Are interested in or have already signed up for Longos Grocery Gateway
 
 ## Key Questions
-* TBD
-* TBD
-* TBD
+* Do people find what they are looking for when they search for an item?
+* Do they review their cart, schedule delivery, and pay for their groceries, without struggle?
+* Is the experience intuitive?
 
 ## Research Plan
 * Methods - Interviews, in-context observation (mobile and desktop), surveys.
